@@ -39,6 +39,7 @@ function matchCards(img1, img2){
         cardOne = cardTwo = '';//7.4
         return disableDeck = false;
     }
+    
     else{
         setTimeout(() => { // if two card not matched
             cardOne.classList.add('shake');// adding shake class to both card after 400ms
