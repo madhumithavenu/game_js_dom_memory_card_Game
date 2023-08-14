@@ -3,7 +3,6 @@ let cardOne, cardTwo;
 let disableDeck = false;
 let matchedCard = 0; 
 
-
 function flipCard(e){ 
     let clickedCard = e.target; //getting user clicked card
 

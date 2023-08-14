@@ -65,7 +65,6 @@ body {
     color: #6563ff;
 }
 .card .back-view{
-    /* display: none; */
 
     transform: rotateY(-180deg);
 }
