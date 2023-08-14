@@ -20,7 +20,7 @@ body {
 .container{
     height: 500px;
     width: 500px;
-    background: rgba(64, 30, 231, 0.342);
+    background: rgba(126, 111, 200, 0.342);
     border-radius: 50px;
     padding: 25px;
     box-shadow: 0 0 10px;
@@ -68,8 +68,6 @@ body {
 
     transform: rotateY(-180deg);
 }
-
-
 .card.flip .back-view{
     transform: rotateY(0);
 }
