@@ -28,8 +28,8 @@ function matchCards(img1, img2){
     if(img1 === img2){ // if two cards img matched
         matchedCard++; //increment matched value by one
         if(matchedCard == 8){ // if matched value is 8 that means user has matched all the cards
-
             setTimeout(() => { 
+                window.alert("Game over");
                 return shuffleCard();
             }, 1200); //calling shuffleCard function after 1s
         }
